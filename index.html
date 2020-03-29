@@ -7,4 +7,14 @@
 <!--这个cg就是span的id，初始化Date时间并转化为字符string类型,每1000毫秒，setInterval() 就会调用函数，直到被关闭。-->
 setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
 </script>
-</body></html>
+  
+  <DIV id="jnkc" style="font-size: 13px;">
+    <SCRIPT> setInterval("jnkc.innerHTML=new Date().toLocaleString()+'星期'+'日一二三四五六'.charAt(new Date().getDay());",1000); </SCRIPT>
+  </DIV> 很简便 层的操作 写个层的样式 确定它的坐标 就随便你放在哪里了 比如 <style type="text/css"> 
+  <!-- #Layer1 { position:absolute; width:200px; height:115px; z-index:1; left: 310px; top: 81px; } -->
+  </style>
+  
+  
+  
+</body>
+</html>
